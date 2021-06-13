@@ -1,0 +1,61 @@
+@charset "utf-8";
+html{
+	font-size: 62.5%;
+}
+
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    width:100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper{
+    max-width: 1000;
+    margin: 20px auto;
+    padding: 20px auto;
+}
+
+.text_center{
+    text-align: center;
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.expl{
+    font-size: 1.4rem;
+}
+
+.main_text{
+    font-size: 1.4rem;
+}
+
+.formpart{
+    font-size: 1.4rem;
+}
+
+.form_label{
+    width: 150px;
+    display: flex;
+}
+
+.form_content{
+    width: 700px;
+    display: flex;
+}
+
+.footer{
+    padding: 10px 0 0 0;
+    width: 100%;
+    font-size: 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,-50%);
+    color: white;
+    background-color: rgb(29, 126, 74);
+}
